@@ -1,5 +1,5 @@
 ---
-title: Earthdata Cloud Cookbook Notebook Template
+title: Earthdata Cloud Cookbook Python Notebook Template (Quarto)
 authors:
     - name: "Albert Einstein"
       orcid: XXXX....
@@ -9,21 +9,22 @@ authors:
       orcid: XXXX....
       email: marie@science.org
       affiliation: University of Radioactivity
-date: last-modified # automatically generates the date when the doc gets rendered. Can be overridden with a specific date if desired.
+date: "YYYY-MM-DD" # Last modified date. `last-modified` automatically generates the date when the doc gets rendered, but when rendering on GitHub Actions it will show the render date. (#336)
 keywords: [sea-ice, netcdf, xarray]
 format: 
   html: default
   ipynb: default # Adds a Jupyter Notebook download button in the right menu
 
-# nasa-metadata is a custom field for providing NASA-specific metadata.
+# nasa-metadata is a custom field for providing NASA-specific metadata
 # Everything above here is standard Quarto metadata.
 nasa-metadata:
     - data-collections:
         - collection1 # (conceptid, shortname, TBD which is the best to use)
         - collection2
     - spheres: [atmosphere, biosphere, cryosphere, geosphere, hydrosphere]
-    - session-info: # Python: pip freeze or !pip list. Would want just the versions of imported packages (not the whole dependency tree).
+    - session-info: # pip freeze or !pip list. Would want just the versions of imported packages (not the whole dependency tree).
     - notebook-type: [tutorial, how-to, data-recipe]
+    - code-lang: python # `lang` is a top-level field for defining the written language, so we use `code-lang` to specify the programming language used in the notebook
     - tools: [earthaccess, harmony, OpenDAP, STAC] # nasa-specific tools - for tagging
 ---
 
@@ -50,7 +51,7 @@ Label the importance of each concept explicitly as **helpful/necessary**.
 
 | Concepts | Importance | Notes |
 | --- | --- | --- |
-| [Intro to Cartopy](https://foundations.projectpythia.org/core/cartopy/cartopy) | Necessary | |
+| [Intro to earthaccess](https://earthaccess.readthedocs.io/en/stable/quick-start/) | Necessary | Required for accessing NASA Earthdata Cloud resources |
 | [Understanding of NetCDF](https://foundations.projectpythia.org/core/data-formats/netcdf-cf) | Helpful | Familiarity with metadata structure |
 | Project management | Helpful | |
 
@@ -63,10 +64,11 @@ Label the importance of each concept explicitly as **helpful/necessary**.
 ---
 
 ## Imports
-Begin your body of content with another `---` divider before continuing into this section, then remove this body text and populate the following code cell with all necessary Python imports **up-front**:
+Populate the following code cell with all necessary Python imports **up-front**:
 
 ```{python}
 import sys
+# import earthaccess
 ```
 
 ## Your first content section
@@ -111,7 +113,6 @@ You can add [callouts using quarto callout syntax](https://quarto.org/docs/autho
 Your relevant information here!
 :::
 
-
 :::{.callout-tip}
 A helpful hint.
 :::
@@ -119,6 +120,8 @@ A helpful hint.
 :::{.callout-warning}
 Be careful!
 :::
+
+We also suggest checking out Quarto's [documentation](https://quarto.org/docs/computations/execution-options.html#output-options) on specifying code cell output options.
 
 ---
 
