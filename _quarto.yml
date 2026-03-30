@@ -188,6 +188,8 @@ website:
                 href: templates/notebook-template-python-jupyter.ipynb
               - text: "Python Quarto Template"
                 href: templates/notebook-template-python-quarto.qmd
+              - text: "R Quarto Template"
+                href: templates/notebook-template-r-quarto.qmd
       - section: "Appendix"
         href: appendix/index.md
         contents:
