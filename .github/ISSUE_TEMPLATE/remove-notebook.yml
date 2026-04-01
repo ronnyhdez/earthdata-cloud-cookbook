@@ -35,7 +35,7 @@ body:
       placeholder: |
         - how-tos/find-data/find-data-earthaccess-v2.qmd - covers the same search workflow with the current API
     validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
