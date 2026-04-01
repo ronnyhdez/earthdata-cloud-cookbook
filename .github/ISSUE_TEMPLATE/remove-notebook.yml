@@ -2,7 +2,7 @@ name: Remove notebook
 description: Propose removing a notebook from the Cookbook
 title: "[Remove] "
 labels:
-  - remove-notebook
+  - "content: remove"
   - maintenance
 assignees:
   -
