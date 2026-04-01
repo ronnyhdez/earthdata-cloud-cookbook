@@ -19,10 +19,16 @@ format:
 # Everything above here is standard Quarto metadata.
 nasa-metadata:
     - data-collections:
-        - collection1 # (conceptid, shortname, TBD which is the best to use)
-        - collection2
+        # For each dataset used, provide at least one of concept-id, short-name, or DOI. 
+        # If you have more than one dataset, add more entries to the list.
+        - concept-id:
+          short-name:
+          doi:
+        - concept-id:
+          short-name:
+          doi:
     - spheres: [atmosphere, biosphere, cryosphere, geosphere, hydrosphere]
-    - session-info: # pip freeze or !pip list. Would want just the versions of imported packages (not the whole dependency tree).
+    - session-info: # pip freeze or !pip list or `uv pip tree --depth 1`. Would want just the versions of imported packages (not the whole dependency tree).
     - notebook-type: [tutorial, how-to, data-recipe]
     - code-lang: python # `lang` is a top-level field for defining the written language, so we use `code-lang` to specify the programming language used in the notebook
     - tools: [earthaccess, harmony, OpenDAP, STAC] # nasa-specific tools - for tagging
