@@ -31,7 +31,8 @@ body:
       description: >
         List one or more existing notebooks that cover this material and should
         be used instead. Include the path(s) and a brief note on how each one
-        covers the same ground.
+        covers the same ground. If you want to link to or import an external 
+        notebook, please open an issue or PR to add it.
       placeholder: |
         - how-tos/find-data/find-data-earthaccess-v2.qmd - covers the same search workflow with the current API
     validations:
@@ -42,6 +43,8 @@ body:
       label: Migration plan
       description: >
         Do we need to do anything for redirects, update links in other notebooks, 
-        or otherwise help users transition away from this notebook?
+        or otherwise help users transition away from this notebook? If so, and
+        it is decided that the notebook should be removed, please include those 
+        changes in the PR to remove the notebook.
     validations:
       required: false
