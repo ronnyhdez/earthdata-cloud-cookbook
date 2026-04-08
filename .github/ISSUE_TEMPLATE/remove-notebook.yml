@@ -42,9 +42,18 @@ body:
     attributes:
       label: Migration plan
       description: >
-        Do we need to do anything for redirects, update links in other notebooks, 
+        Do we need to do anything for redirects, update links in other notebooks,
         or otherwise help users transition away from this notebook? If so, and
-        it is decided that the notebook should be removed, please include those 
+        it is decided that the notebook should be removed, please include those
         changes in the PR to remove the notebook.
     validations:
       required: false
+
+  - type: checkboxes
+    attributes:
+      label: Final decision
+      description: >
+        After discussion, record the outcome here before opening a PR or closing the issue.
+      options:
+        - label: Remove this notebook (open a PR to remove it)
+        - label: Keep this notebook (close issue, open an issue to update it instead using the "Update notebook" issue template)
