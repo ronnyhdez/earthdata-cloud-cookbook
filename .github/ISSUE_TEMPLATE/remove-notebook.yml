@@ -1,0 +1,59 @@
+name: Remove notebook
+description: Propose removing a notebook from the Cookbook
+title: "[Remove] "
+labels:
+  - "content: remove"
+  - maintenance
+assignees:
+  -
+body:
+  - type: input
+    attributes:
+      label: Notebook to remove
+      description: Path to the notebook file.
+      placeholder: "how-tos/find-data/find-data-earthaccess.qmd"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Rationale
+      description: >
+        Why should this notebook be removed? Common reasons include outdated
+        dependencies, deprecated APIs, redundancy with newer content, or poor
+        maintenance outlook.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Superseding notebooks
+      description: >
+        List one or more existing notebooks that cover this material and should
+        be used instead. Include the path(s) and a brief note on how each one
+        covers the same ground. If you want to link to or import an external 
+        notebook, please open an issue or PR to add it.
+      placeholder: |
+        - how-tos/find-data/find-data-earthaccess-v2.qmd - covers the same search workflow with the current API
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Migration plan
+      description: >
+        Do we need to do anything for redirects, update links in other notebooks,
+        or otherwise help users transition away from this notebook? If so, and
+        it is decided that the notebook should be removed, please include those
+        changes in the PR to remove the notebook.
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: Final decision
+      description: >
+        After discussion, record the outcome here before opening a PR or closing the issue.
+      options:
+        - label: Remove this notebook (open a PR to remove it)
+        - label: Keep this notebook (close issue, open an issue to update it instead using the "Update notebook" issue template)
