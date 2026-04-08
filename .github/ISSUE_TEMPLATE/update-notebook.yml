@@ -1,0 +1,53 @@
+name: Update notebook
+description: Propose updating content in the Cookbook
+title: "[UPDATE] "
+labels:
+  - "content: update"
+  - maintenance
+assignees:
+  -
+body:
+  - type: input
+    attributes:
+      label: Content in question
+      description: URL of the page or path to the notebook file.
+      placeholder: "https://nasa-openscapes.github.io/earthdata-cloud-cookbook/how-tos/read_data.html"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Out of date or missing content
+      description: >
+        Describe what is out of date, incorrect, or missing. Be as specific as
+        possible so it is easy to identify the section(s) that need attention.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Recommended updates
+      description: >
+        What changes would bring this content up to date? Include suggested
+        code snippets, links to relevant documentation, or other resources
+        that would help a contributor make the update.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: >
+        Any other information that might be helpful, such as related issues,
+        PRs, or external references.
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: Decision
+      description: >
+        After discussion, record the outcome here before opening a PR or closing the issue.
+      options:
+        - label: Update content (open a PR to make the changes)
+        - label: Remove from cookbook (close issue, open an issue to remove it using the "Remove notebook" issue template)
