@@ -50,4 +50,4 @@ body:
         After discussion, record the outcome here before opening a PR or closing the issue.
       options:
         - label: Update content (open a PR to make the changes)
-        - label: Remove from cookbook (close issue, open an issue to remove it using the "Remove notebook" issue template)
+        - label: Remove from cookbook (close issue, open an issue to remove it using this [issue template](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=remove-notebook.yml))
