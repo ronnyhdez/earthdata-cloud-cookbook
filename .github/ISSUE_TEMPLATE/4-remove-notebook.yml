@@ -55,13 +55,8 @@ body:
       value: |
         ### Final resolution
 
-        After discussion, how this feedback is addressed will show up in how the
-        issue is resolved.
+        After discussion, how this feedback is addressed will show up in how the issue is resolved.
 
-        1. Closed as completed: Merging a PR to remove this notebook automatically
-          closed this issue.
-        2. Closed as duplicate: The author or maintainer closed this issue after
-          linking a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=2-update-notebook.yml)
-          created from the "🪏 Update notebook" template.
-        3. Closed as won't fix: The author or maintainer closed this issue
-          if no changes are necessary.
+        1. Closed as completed: Merging a PR to remove this notebook automatically closed this issue.
+        2. Closed as duplicate: The author or maintainer closed this issue after linking a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=2-update-notebook.yml) created from the "🪏 Update notebook" template.
+        3. Closed as won't fix: The author or maintainer closed this issue if no changes are necessary.
