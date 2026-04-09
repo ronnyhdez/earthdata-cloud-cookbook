@@ -29,8 +29,7 @@ body:
       label: Recommended updates
       description: >
         What changes would bring this content up to date? Include suggested
-        code snippets, links to relevant documentation, or other resources
-        that would help a contributor make the update.
+        code snippets, links to relevant documentation, or other resources.
     validations:
       required: true
 
@@ -50,4 +49,4 @@ body:
         After discussion, record the outcome here before opening a PR or closing the issue.
       options:
         - label: Update content (open a PR to make the changes)
-        - label: Remove from cookbook (close issue, open an issue to remove it using this [issue template](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=remove-notebook.yml))
+        - label: Remove from cookbook (close issue, open a new issue to remove it using this [issue template](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=remove-notebook.yml))
