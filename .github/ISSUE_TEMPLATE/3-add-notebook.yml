@@ -2,7 +2,7 @@ name: 🌱 Add notebook
 description: Suggest a new notebook for the Cookbook
 title: "[Add] "
 labels:
-  - "content: add"
+  - "content: new"
   - maintenance
 assignees:
   -
