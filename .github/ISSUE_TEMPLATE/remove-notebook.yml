@@ -1,4 +1,4 @@
-name: Remove notebook
+name: 🥀 Remove notebook
 description: Propose removing a notebook from the Cookbook
 title: "[Remove] "
 labels:
@@ -9,9 +9,10 @@ assignees:
 body:
   - type: input
     attributes:
-      label: Notebook to remove
-      description: Path to the notebook file.
-      placeholder: "how-tos/find-data/find-data-earthaccess.qmd"
+      label: Content to remove
+      description: >
+        What specific page or notebook should be removed? Provide a full URL or path.
+      placeholder: "https://nasa-openscapes.github.io/earthdata-cloud-cookbook/how-tos/read_data.html"
     validations:
       required: true
 
@@ -34,7 +35,7 @@ body:
         covers the same ground. If you want to link to or import an external 
         notebook, please open an issue or PR to add it.
       placeholder: |
-        - how-tos/find-data/find-data-earthaccess-v2.qmd - covers the same search workflow with the current API
+        - how-tos/find-data/find-data-earthaccess-v2.qmd: covers the same search workflow with the current API
     validations:
       required: false
 
@@ -49,11 +50,18 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
+  - type: markdown
     attributes:
-      label: Final decision
-      description: >
-        After discussion, record the outcome here before opening a PR or closing the issue.
-      options:
-        - label: Remove this notebook (open a PR to remove it)
-        - label: Keep this notebook (close issue, open an issue to update it instead using the "Update notebook" issue template)
+      value: |
+        ## Final resolution
+
+        After discussion, how this feedback is addressed will show up in how the
+        issue is resolved.
+
+        1. Closed as completed: Merging a PR to remove this notebook automatically
+          closed this issue.
+        2. Closed as duplicate: The author or maintainer closed this issue after
+          linking a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=update-notebook.yml)
+          created from the "🪏 Update notebook" template.
+        3. Closed as won't fix: The author or maintainer closed this issue
+          if no changes are necessary.

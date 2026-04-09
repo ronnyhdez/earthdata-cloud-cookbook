@@ -1,0 +1,61 @@
+name: 🪏 Update notebook
+description: Propose updating a notebook in the Cookbook
+title: "[UPDATE] "
+labels:
+  - "content: update"
+  - maintenance
+assignees:
+  -
+body:
+  - type: input
+    attributes:
+      label: Notebook to update
+      description: >
+        What specific page or notebook needs to be updated? Provide a full URL or path.
+      placeholder: "https://nasa-openscapes.github.io/earthdata-cloud-cookbook/how-tos/read_data.html"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Problematic or missing content
+      description: >
+        Describe what is out of date, incorrect, or missing. Be as specific as
+        possible so it is easy to identify the section(s) that need attention.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Recommended updates
+      description: >
+        What changes would bring this notebook up to date? Include suggested
+        code snippets, links to relevant documentation, or other resources.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: >
+        Any other information that might be helpful, such as related issues,
+        PRs, or external references.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Final resolution
+
+        After discussion, how this feedback is addressed will show up in how
+        this issue is resolved.
+
+        1. Closed as completed: merging a PR to update this notebook automatically
+          closed this issue.
+        2. Closed as duplicate: the author or a maintainer closed this issue
+          after linking an existing issue with the "🪏 Update notebook" template
+          or a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=remove-notebook.yml)
+          with the "🥀 Remove notebook" template.
+        3. Closed as won't fix: the author or a maintainer closed this issue
+          manually if no changes are necessary.
