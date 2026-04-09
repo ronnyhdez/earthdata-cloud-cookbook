@@ -25,7 +25,7 @@ body:
         whether one of those should be updated instead. Include the path(s) and
         a brief note on how each is related to the proposed notebook.
       placeholder: |
-        - how-tos/find-data/find-data-earthaccess-v2.qmd: provides an Haskell alternative
+        - how-tos/find-data/find-data-earthaccess-v2.qmd: provides a Haskell alternative
     validations:
       required: false
 
@@ -49,7 +49,7 @@ body:
         please reply below and `@mention` their GitHub username.
 
         You can refer to our [outline google doc](https://docs.google.com/document/d/12uEPP_w4M4SMrLkcVzUwX7htWtTzlS5a3ahJnK7fSAs/edit)
-        for some more planning context, as well as notes for our [contributing workflow](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/workflow.html)
+        for some more planning context, as well as our [contributing workflow](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/workflow.html)
         for how to do work with GitHub branches and Quarto. Totally happy to talk
         through more and screenshare at a co-working session (or Slack us to set another time)!
 
@@ -66,5 +66,5 @@ body:
         2. Closed as duplicate: The author or maintainer closed this issue after
           linking a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=update-notebook.yml)
           created from the "🪏 Update notebook" template.
-        3. Closed as won't fix: The author or maintainer closes this issue
+        3. Closed as won't fix: The author or maintainer closed this issue
           if no changes are necessary.
