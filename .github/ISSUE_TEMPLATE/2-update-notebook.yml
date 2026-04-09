@@ -1,5 +1,5 @@
 name: 🪏 Update notebook
-description: Propose updating a notebook in the Cookbook
+description: Improve an existing notebook in the Cookbook
 title: "[UPDATE] "
 labels:
   - "content: update"
@@ -27,7 +27,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Recommended updates
+      label: Recommended changes
       description: >
         What changes would bring this notebook up to date? Include suggested
         code snippets, links to relevant documentation, or other resources.
@@ -55,7 +55,7 @@ body:
           closed this issue.
         2. Closed as duplicate: the author or a maintainer closed this issue
           after linking an existing issue with the "🪏 Update notebook" template
-          or a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=remove-notebook.yml)
+          or a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=4-remove-notebook.yml)
           with the "🥀 Remove notebook" template.
         3. Closed as won't fix: the author or a maintainer closed this issue
           manually if no changes are necessary.
