@@ -47,6 +47,8 @@ body:
       label: Decision
       description: >
         After discussion, record the outcome here before opening a PR or closing the issue.
+        If the content should be removed, open a new issue using this
+        [remove notebook issue template](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=remove-notebook.yml).
       options:
         - label: Update content (open a PR to make the changes)
-        - label: Remove from cookbook (close issue, open a new issue to remove it using this [issue template](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=remove-notebook.yml))
+        - label: Remove from cookbook (close issue, open a new issue to remove it)
