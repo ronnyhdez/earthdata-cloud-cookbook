@@ -48,9 +48,8 @@ body:
         it. If there is someone who you think would be a better fit for this issue or from whom you'd like feedback,
         please reply below and `@mention` their GitHub username.
 
-        You can refer to our [outline google doc](https://docs.google.com/document/d/12uEPP_w4M4SMrLkcVzUwX7htWtTzlS5a3ahJnK7fSAs/edit)
-        for some more planning context, as well as our [contributing workflow](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/workflow.html)
-        for how to do work with GitHub branches and Quarto. Totally happy to talk
+        Our [contributing workflow](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/workflow.html)
+        describes how to work with GitHub branches and Quarto. Totally happy to talk
         through more and screenshare at a co-working session (or Slack us to set another time)!
 
   - type: markdown
