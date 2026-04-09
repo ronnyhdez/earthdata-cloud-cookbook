@@ -31,10 +31,11 @@ body:
 
   - type: textarea
     attributes:
-      label: Migration plan
+      label: Navigation plan
       description: >
-        Do we need to do anything for redirects, update links in other notebooks,
-        or otherwise help users discover this notebook?
+        Where does this notebook fit in the Cookbook? For instance, is it a how-to
+        or a tutorial? Do we need to add links from other notebooks, or otherwise
+        help users discover this notebook?
     validations:
       required: false
 
@@ -49,8 +50,8 @@ body:
         please reply below and `@mention` their GitHub username.
 
         Our [contributing workflow](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/workflow.html)
-        describes how to work with GitHub branches and Quarto. Totally happy to talk
-        through more and screenshare at a co-working session (or Slack us to set another time)!
+        describes how to work with GitHub branches and Quarto. We hold bi-weekly co-working sessions
+        you are welcome to join, or ask on Slack for support anytime!
 
   - type: markdown
     attributes:
