@@ -1,5 +1,5 @@
-name: Update notebook
-description: Propose updating content in the Cookbook
+name: 🪏 Update notebook
+description: Propose updating a notebook in the Cookbook
 title: "[UPDATE] "
 labels:
   - "content: update"
@@ -9,15 +9,16 @@ assignees:
 body:
   - type: input
     attributes:
-      label: Content in question
-      description: URL of the page or path to the notebook file.
+      label: Notebook to update
+      description: >
+        What specific page or notebook needs to be updated? Provide a full URL or path.
       placeholder: "https://nasa-openscapes.github.io/earthdata-cloud-cookbook/how-tos/read_data.html"
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Out of date or missing content
+      label: Problmeatic or missing content
       description: >
         Describe what is out of date, incorrect, or missing. Be as specific as
         possible so it is easy to identify the section(s) that need attention.
@@ -28,7 +29,7 @@ body:
     attributes:
       label: Recommended updates
       description: >
-        What changes would bring this content up to date? Include suggested
+        What changes would bring this notebook up to date? Include suggested
         code snippets, links to relevant documentation, or other resources.
     validations:
       required: true
@@ -42,13 +43,19 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
+  - type: markdown
     attributes:
-      label: Decision
-      description: >
-        After discussion, record the outcome here before opening a PR or closing the issue.
-        If the content should be removed, open a new issue using this
-        [remove notebook issue template](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=remove-notebook.yml).
-      options:
-        - label: Update content (open a PR to make the changes)
-        - label: Remove from cookbook (close issue, open a new issue to remove it)
+      value: |
+        ## Final resolution
+
+        After discussion, how this feedback is addressed will show up in how
+        this issue is resolved.
+
+        1. Closed as completed: merging a PR to update this notebook automatically
+          closes this issue.
+        2. Closed as duplicate: the author or a maintainer closes this issue
+          after linking an existing issue with the "🪏 Update notebook" template
+          or a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=remove-notebook.yml)
+          with the "🥀 Remove notebook" template.
+        3. Closed as won't fix: the author or a maintainer closes this issue
+          manually if no changes are necessary.
