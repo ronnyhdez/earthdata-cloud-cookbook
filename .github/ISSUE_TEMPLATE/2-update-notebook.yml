@@ -52,10 +52,10 @@ body:
         this issue is resolved.
 
         1. Closed as completed: merging a PR to update this notebook
-           automatically closed this issue.
+        automatically closed this issue.
         2. Closed as duplicate: the author or a maintainer closed this issue
-           after linking an existing issue with the "🪏 Update notebook" template
-           or a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=4-remove-notebook.yml)
-           with the "🥀 Remove notebook" template.
+        after linking an existing issue with the "🪏 Update notebook" template
+        or a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=4-remove-notebook.yml)
+        with the "🥀 Remove notebook" template.
         3. Closed as won't fix: the author or a maintainer closed this issue
-           manually if no changes are necessary.
+        manually if no changes are necessary.
