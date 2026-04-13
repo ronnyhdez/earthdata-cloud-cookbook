@@ -11,8 +11,10 @@ body:
     attributes:
       label: Notebook to update
       description: >
-        What specific page or notebook needs to be updated? Provide a full URL or path.
-      placeholder: "https://nasa-openscapes.github.io/earthdata-cloud-cookbook/how-tos/read_data.html"
+        What specific page or notebook needs to be updated? Provide a full URL
+        or path.
+      placeholder: |
+        https://nasa-openscapes.github.io/earthdata-cloud-cookbook/how-tos/read_data.html
     validations:
       required: true
 
@@ -45,7 +47,7 @@ body:
 
   - type: markdown
     attributes:
-      value: |
+      value: >
         ### Final resolution
 
         After discussion, how this feedback is addressed will show up in how
@@ -53,9 +55,11 @@ body:
 
         1. Closed as completed: merging a PR to update this notebook
         automatically closed this issue.
+
         2. Closed as duplicate: the author or a maintainer closed this issue
         after linking an existing issue with the "🪏 Update notebook" template
         or a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=4-remove-notebook.yml)
         with the "🥀 Remove notebook" template.
+
         3. Closed as won't fix: the author or a maintainer closed this issue
         manually if no changes are necessary.
