@@ -1,0 +1,74 @@
+name: 🌱 Add notebook
+description: Suggest a new notebook for the Cookbook
+title: "[Add] "
+labels:
+  - "content: new"
+  - maintenance
+assignees:
+  -
+body:
+
+  - type: textarea
+    attributes:
+      label: Rationale
+      description: >
+        Why should a new notebook be created? What hurdle that Earthdata users 
+        encounter with cloud computing will the content help them clear?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Related notebooks
+      description: >
+        List any existing notebooks that cover related material, and consider
+        whether one of those should be updated instead. Include the path(s) and
+        a brief note on how each is related to the proposed notebook.
+      placeholder: |
+        - how-tos/find-data/find-data-earthaccess-v2.qmd: provides a Haskell alternative
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Navigation plan
+      description: >
+        Where does this notebook fit in the Cookbook? For instance, is it a how-to
+        or a tutorial? Do we need to add links from other notebooks, or otherwise
+        help users discover this notebook?
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: >
+        ### Contributing
+
+        We would be thrilled if you are also interested in starting to write the
+        proposed notebook! We can provide the best support if you share updates
+        on GitHub as you go. If there is someone who you think would be a better
+        fit for this issue or from whom you'd like feedback, please reply below
+        and `@mention` their GitHub username.
+
+        Our [contributing workflow](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/workflow.html)
+        describes how to work with GitHub branches and Quarto. We hold bi-weekly
+        co-working sessions you are welcome to join, or ask on Slack for support
+        anytime!
+
+  - type: markdown
+    attributes:
+      value: >
+        ### Final resolution
+
+        After discussion, how this feedback is addressed will show up in how the
+        issue is resolved.
+
+        1. Closed as completed: Merging a PR to add the proposed notebook 
+        automatically closed this issue.
+
+        2. Closed as duplicate: The author or maintainer closed this issue after
+        linking a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=2-update-notebook.yml) 
+        created from the "🪏 Update notebook" template.
+
+        3. Closed as won't fix: The author or maintainer closed this issue if no
+        changes are necessary.
