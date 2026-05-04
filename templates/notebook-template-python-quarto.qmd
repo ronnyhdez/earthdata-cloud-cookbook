@@ -15,30 +15,8 @@ format:
   html: default
   ipynb: default # Adds a Jupyter Notebook download button in the right menu
 
-# nasa-metadata is a custom field for providing NASA-specific metadata
-# Everything above here is standard Quarto metadata.
-nasa-metadata:
-    - data-collection:
-        # For each dataset used, provide at least one of concept-id, short-name, or DOI. 
-        # If you have more than one dataset, add more entries to the list.
-        - concept-id:
-          short-name:
-          doi:
-        - concept-id:
-          short-name:
-          doi:
-    # instrument, project, platform could be inferred from the collection, 
-    # TBD if we should include them explicitly as metadata fields or if we can 
-    # pull them from collection.
-    - instrument: [MODIS, VIIRS, AIRS] # Each instrument used in the tutorial
-    - project: [Aqua, bioscape] # Each mission used in the tutorial
-    - platform: [aqua, terra, ER-2] # Each platform used in the tutorial
-    - sphere: [atmosphere, biosphere, cryosphere, geosphere, hydrosphere]
-    - tool: [earthaccess, appears, OpenDAP, giovanni] # nasa-specific tools
-    - service: [harmony, STAC] # nasa-specific services
-    - session-info: # pip freeze or !pip list or `uv pip tree --depth 1`. Would want just the versions of imported packages (not the whole dependency tree).
-    - notebook-type: [tutorial, how-to, data-recipe]
-    - code-lang: python # `lang` is a top-level field for defining the written language, so we use `code-lang` to specify the programming language used in the notebook
+# TODO: Add nasa-metadata as a custom field for providing NASA-specific metadata
+# #441
 ---
 
 ## Overview

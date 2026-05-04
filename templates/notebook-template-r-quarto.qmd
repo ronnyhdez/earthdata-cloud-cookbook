@@ -11,26 +11,8 @@ authors:
       affiliation: University of Radioactivity
 date: "YYYY-MM-DD" # Last modified date. `last-modified` automatically generates the date when the doc gets rendered, but when rendering on GitHub Actions it will show the render date. (#336)
 keywords: [sea-ice, netcdf, terra]
-format:
+format: 
   html: default
-
-# nasa-metadata is a custom field for providing NASA-specific metadata
-# Everything above here is standard Quarto metadata.
-nasa-metadata:
-    - data-collections:
-        # For each dataset used, provide at least one of concept-id, short-name, or DOI. 
-        # If you have more than one dataset, add more entries to the list.
-        - concept-id:
-          short-name:
-          doi:
-        - concept-id:
-          short-name:
-          doi:
-    - spheres: [atmosphere, biosphere, cryosphere, geosphere, hydrosphere]
-    - session-info: # vapply(unname(sessionInfo()$otherPkgs), \(x) paste(x["Package"], x["Version"]), ""). # Would want just the versions of packages, not all revdeps.
-    - notebook-type: [tutorial, how-to, data-recipe]
-    - code-lang: r # `lang` is a top-level field for defining the written language, so we use `code-lang` to specify the programming language used in the notebook
-    - tools: [earthdatalogin, STAC] # nasa-specific tools - for tagging
 ---
 
 ## Overview
