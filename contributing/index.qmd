@@ -21,3 +21,13 @@ Our style of working is greatly influenced by:
 The Earthdata Cloud Cookbook is made with [Quarto](https://quarto.org/) with our [2i2c](https://2i2c.org/) JupyterHub. Learn more in the [Setup](setup.qmd) and [Workflow](workflow.qmd) sections.
 
 ![Figure from documentation.divio.com: There is a secret that needs to be understood in order to write good software documentation: there isn\'t one thing called documentation, there are four. They are: tutorials, how-to guides, technical reference and explanation. They represent four different purposes or functions, and require four different approaches to their creation.](images/divio.png){fig-align="center" width="582"}
+
+## Notebook templates
+
+To help contributors get started quickly, we provide starter templates for new notebooks. Each template includes the standard front matter, section structure, and code patterns used across the Cookbook.
+
+- [Python Jupyter Notebook Template](templates/notebook-template-python-jupyter.ipynb) - for `.ipynb` notebooks using Python
+- [Python Quarto Template](templates/notebook-template-python-quarto.qmd) - for `.qmd` documents using Python
+- [R Quarto Template](templates/notebook-template-r-quarto.qmd) - for `.qmd` documents using R
+
+Copy the appropriate template into the relevant section of the Cookbook (e.g., `how-tos` or `tutorials`), and then edit it to add your content.
