@@ -35,21 +35,47 @@ website:
     collapse-level: 1
     contents:
       # ============================================================
-      # SECTION 1: GETTING STARTED
+      # SECTION 1: WELCOME (Explanation)
       # ============================================================
-      - section: "Getting Started"
+      - section: "Welcome"
         contents:
           - text: "Welcome"
             href: index.qmd
-          - text: "When To Cloud"
-            href: when-to-cloud.qmd
+          - section: "Our Cookbooks"
+            href: our-cookbooks.qmd
+            contents:
+              - text: "PO.DAAC Tutorials"
+                href: https://podaac.github.io/tutorials/
+              - text: "ASDC Mission Tutorials"
+                href: https://nasa.github.io/ASDC_Data_and_User_Services/
+              - text: "NSIDC Data Cookbook"
+                href: https://nsidc.github.io/NSIDC-Data-Cookbook/
+              - text: "OBDAAC Ocean Data Cookbook"
+                href: https://nasa.github.io/oceandata-notebooks/
+              - text: "ORNL DAAC Airborne Tutorials"
+                href: https://ornldaac.github.io/airborne/
+              - text: "ORNL DAAC GEDI Tutorials"
+                href: https://ornldaac.github.io/gedi_tutorials/
+          - section: "Workshops & Hackathons"
+            href: workshops/index.qmd
+            contents:
+              - text: "Workshop Setup"
+                href: workshops/setup.md
           - text: "Cloud Environment Setup"
             href: environment-setup/index.qmd
           - text: "Glossary & Cheatsheets"
             href: glossary.qmd
 
       # ============================================================
-      # SECTION 2: TUTORIALS (Learn by Doing)
+      # SECTION 2: CORE CONCEPTS (conceptual, the "why")
+      # ============================================================
+      - section: "Core concepts"
+        contents:
+          - text: "When To Cloud"
+            href: when-to-cloud.qmd
+
+      # ============================================================
+      # SECTION 3: TUTORIALS (Learn by doing, end-to-end)
       # ============================================================
       - section: "Tutorials (Learn by Doing)"
         href: tutorials/index.qmd
@@ -76,9 +102,66 @@ website:
             href: tutorials/make_atl03_figure.ipynb
           - text: "Data Stories Template"
             href: tutorials/Data_stories_template.ipynb
+     # - section: "External Tutorials"
+     #   contents:
+          - text: "NASA Earthdata Authentication"
+            href: external/nasa_earthdata_authentication.ipynb
+          - text: "CMR Data Discovery"
+            href: external/data_discovery_cmr.ipynb
+          - text: "CMR-STAC API Discovery"
+            href: external/data_discovery_cmr-stac_api.ipynb
+          - text: "Harmony Subsetting"
+            href: external/harmony_subsetting.ipynb
+          - text: "Direct S3 Access Patterns"
+            href: external/data_access_direct_S3.ipynb
+          - text: "On-Prem vs Cloud Workflows"
+            href: external/on-prem_cloud.ipynb
+          - text: "Zarr-EOSDIS-Store"
+            href: external/zarr-eosdis-store.ipynb
+          - text: "COF Zarr Reformat"
+            href: external/cof-zarr-reformat.ipynb
+          - text: "Xarray Fundamentals"
+            href: external/xarray.ipynb
+          - text: "Sentinel-6 OPeNDAP & Gridding"
+            href: external/sentinel-6_opendap_access_gridding.ipynb
+     # - section: "Examples by Data Provider"
+     #   href: examples/index.qmd
+     #   contents:
+          - section: "GES DISC"
+            contents:
+              - text: "MERRA2 with Kerchunk"
+                href: examples/GESDISC/GESDISC_MERRA2_tavg1_2d_flx_Nx__Kerchunk.ipynb
+          - section: "LP DAAC"
+            contents:
+              - text: "HLS Point Buffer Search & Access"
+                href: examples/LPDAAC/Find_and_Access_HLS_PointBuffer.ipynb
+              - text: "ECOSTRESS with Kerchunk"
+                href: examples/LPDAAC/LPDAAC_ECOSTRESS_LSTE__Kerchunk.ipynb
+          - section: "NSIDC"
+            contents:
+              - text: "ICESat-2 OnPrem vs Cloud"
+                href: examples/NSIDC/ICESat2-CMR-OnPrem-vs-Cloud.ipynb
+              - text: "ICESat-2 CMR & AWS S3"
+                href: examples/NSIDC/ICESat2-CMR-AWS-S3.ipynb
+          - section: "ORNL DAAC"
+            contents:
+              - text: "DAYMET Direct S3 Access"
+                href: examples/ORNL/Data_Access__Direct_S3_Access__ORNL_DAYMET.ipynb
+              - text: "DAYMET with Kerchunk"
+                href: examples/ORNL/ORNL_DAYMET__Kerchunk.ipynb
+          - section: "PO.DAAC"
+            contents:
+              - text: "ECCO SSH with Kerchunk"
+                href: examples/PODAAC/PODAAC_ECCO_SSH__Kerchunk.ipynb
+          - section: "USGS"
+            contents:
+              - text: "Landsat C2 Search & Access"
+                href: examples/USGS_Landsat/Landsat_C2_Search_Access.ipynb
+          - text: "Direct Access & Harmony Workflow"
+            href: examples/Transform-workflow.ipynb
 
       # ============================================================
-      # SECTION 3: HOW-TO GUIDES (Solve Specific Problems)
+      # SECTION 3: HOW-TO GUIDES (goal-oriented, assumes contex)
       # ============================================================
       - section: "How-To Guides (Solve Specific Problems)"
         contents:
@@ -135,67 +218,6 @@ website:
       # ============================================================
       # SECTION 4: EXAMPLES BY DATA PROVIDER
       # ============================================================
-      - section: "Examples by Data Provider"
-        href: examples/index.qmd
-        contents:
-          - section: "GES DISC"
-            contents:
-              - text: "MERRA2 with Kerchunk"
-                href: examples/GESDISC/GESDISC_MERRA2_tavg1_2d_flx_Nx__Kerchunk.ipynb
-          - section: "LP DAAC"
-            contents:
-              - text: "HLS Point Buffer Search & Access"
-                href: examples/LPDAAC/Find_and_Access_HLS_PointBuffer.ipynb
-              - text: "ECOSTRESS with Kerchunk"
-                href: examples/LPDAAC/LPDAAC_ECOSTRESS_LSTE__Kerchunk.ipynb
-          - section: "NSIDC"
-            contents:
-              - text: "ICESat-2 OnPrem vs Cloud"
-                href: examples/NSIDC/ICESat2-CMR-OnPrem-vs-Cloud.ipynb
-              - text: "ICESat-2 CMR & AWS S3"
-                href: examples/NSIDC/ICESat2-CMR-AWS-S3.ipynb
-          - section: "ORNL DAAC"
-            contents:
-              - text: "DAYMET Direct S3 Access"
-                href: examples/ORNL/Data_Access__Direct_S3_Access__ORNL_DAYMET.ipynb
-              - text: "DAYMET with Kerchunk"
-                href: examples/ORNL/ORNL_DAYMET__Kerchunk.ipynb
-          - section: "PO.DAAC"
-            contents:
-              - text: "ECCO SSH with Kerchunk"
-                href: examples/PODAAC/PODAAC_ECCO_SSH__Kerchunk.ipynb
-          - section: "USGS"
-            contents:
-              - text: "Landsat C2 Search & Access"
-                href: examples/USGS_Landsat/Landsat_C2_Search_Access.ipynb
-          - text: "Direct Access & Harmony Workflow"
-            href: examples/Transform-workflow.ipynb
-
-      # ============================================================
-      # SECTION 5: EXTERNAL TUTORIALS
-      # ============================================================
-      - section: "External Tutorials"
-        contents:
-          - text: "NASA Earthdata Authentication"
-            href: external/nasa_earthdata_authentication.ipynb
-          - text: "CMR Data Discovery"
-            href: external/data_discovery_cmr.ipynb
-          - text: "CMR-STAC API Discovery"
-            href: external/data_discovery_cmr-stac_api.ipynb
-          - text: "Harmony Subsetting"
-            href: external/harmony_subsetting.ipynb
-          - text: "Direct S3 Access Patterns"
-            href: external/data_access_direct_S3.ipynb
-          - text: "On-Prem vs Cloud Workflows"
-            href: external/on-prem_cloud.ipynb
-          - text: "Zarr-EOSDIS-Store"
-            href: external/zarr-eosdis-store.ipynb
-          - text: "COF Zarr Reformat"
-            href: external/cof-zarr-reformat.ipynb
-          - text: "Xarray Fundamentals"
-            href: external/xarray.ipynb
-          - text: "Sentinel-6 OPeNDAP & Gridding"
-            href: external/sentinel-6_opendap_access_gridding.ipynb
 
       # ============================================================
       # SECTION 6: REFERENCE
@@ -221,26 +243,6 @@ website:
       # ============================================================
       - section: "Community & Resources"
         contents:
-          - section: "Our Cookbooks"
-            href: our-cookbooks.qmd
-            contents:
-              - text: "PO.DAAC Tutorials"
-                href: https://podaac.github.io/tutorials/
-              - text: "ASDC Mission Tutorials"
-                href: https://nasa.github.io/ASDC_Data_and_User_Services/
-              - text: "NSIDC Data Cookbook"
-                href: https://nsidc.github.io/NSIDC-Data-Cookbook/
-              - text: "OBDAAC Ocean Data Cookbook"
-                href: https://nasa.github.io/oceandata-notebooks/
-              - text: "ORNL DAAC Airborne Tutorials"
-                href: https://ornldaac.github.io/airborne/
-              - text: "ORNL DAAC GEDI Tutorials"
-                href: https://ornldaac.github.io/gedi_tutorials/
-          - section: "Workshops & Hackathons"
-            href: workshops/index.qmd
-            contents:
-              - text: "Workshop Setup"
-                href: workshops/setup.md
           - section: "Contributing"
             href: contributing/index.qmd
             contents:
