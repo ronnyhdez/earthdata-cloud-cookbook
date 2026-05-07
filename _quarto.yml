@@ -63,8 +63,6 @@ website:
                 href: workshops/setup.md
           - text: "Cloud Environment Setup"
             href: environment-setup/index.qmd
-          - text: "Glossary & Cheatsheets"
-            href: glossary.qmd
 
       # ============================================================
       # SECTION 2: CORE CONCEPTS (conceptual, the "why")
@@ -161,9 +159,9 @@ website:
             href: examples/Transform-workflow.ipynb
 
       # ============================================================
-      # SECTION 3: HOW-TO GUIDES (goal-oriented, assumes contex)
+      # SECTION 4: HOW-TO GUIDES (goal-oriented, assumes contex)
       # ============================================================
-      - section: "How-To Guides (Solve Specific Problems)"
+      - section: "How-To Guides (goal-oriented, assumes context)"
         contents:
           - section: "Find Data"
             contents:
@@ -216,15 +214,13 @@ website:
             href: how-tos/how_to_guide_parking_lot.qmd
 
       # ============================================================
-      # SECTION 4: EXAMPLES BY DATA PROVIDER
-      # ============================================================
-
-      # ============================================================
-      # SECTION 6: REFERENCE
+      # SECTION 5: REFERENCE
       # ============================================================
       - section: "Reference"
         href: appendix/index.md
         contents:
+          - text: "Glossary & Cheatsheets"
+            href: glossary.qmd
           - text: "Authentication"
             href: appendix/authentication.qmd
           - section: "Alternate Access Methods"
