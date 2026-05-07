@@ -1,0 +1,71 @@
+name: 🥀 Remove notebook
+description: Propose removing a notebook from the Cookbook
+title: "[Remove] "
+labels:
+  - "content: remove"
+  - maintenance
+assignees:
+  -
+body:
+  - type: input
+    attributes:
+      label: Content to remove
+      description: >
+        What specific page or notebook should be removed? Provide a full URL or path.
+      placeholder: |
+        https://nasa-openscapes.github.io/earthdata-cloud-cookbook/how-tos/read_data.html
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Rationale
+      description: >
+        Why should this notebook be removed? Common reasons include outdated
+        dependencies, deprecated APIs, redundancy with newer content, or poor
+        maintenance outlook.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Superseding notebooks
+      description: >
+        List one or more existing notebooks that cover this material and should
+        be used instead. Include the path(s) and a brief note on how each one
+        covers the same ground. If you want to link to or import an external 
+        notebook, please open an issue or PR to add it.
+      placeholder: >
+        - how-tos/find-data/find-data-earthaccess-v2.qmd: covers the same search
+        workflow with the current API
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Migration plan
+      description: >
+        Do we need to do anything for redirects, update links in other notebooks,
+        or otherwise help users transition away from this notebook? If so, and
+        it is decided that the notebook should be removed, please include those
+        changes in the PR to remove the notebook.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: >
+        ### Final resolution
+
+        After discussion, how this feedback is addressed will show up in how the
+        issue is resolved.
+
+        1. Closed as completed: Merging a PR to remove this notebook
+        automatically closed this issue.
+
+        2. Closed as duplicate: The author or maintainer closed this issue after
+        linking a [new issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/new?template=2-update-notebook.yml)
+        created from the "🪏 Update notebook" template.
+
+        3. Closed as won't fix: The author or maintainer closed this issue if no
+        changes are necessary.
