@@ -261,20 +261,6 @@ website:
           - text: "Privacy Policy"
             href: privacy.qmd
 
-      # ============================================================
-      # SECTION 8: ADMINISTRATION (for maintainers/instructors)
-      # ============================================================
-      - section: "Administration"
-        href: access-admin/index.qmd
-        contents:
-          - text: "2i2c Hub Access"
-            href: access-admin/add-folks-to-2i2c-github-teams.qmd
-          - text: "Data Storage"
-            href: access-admin/data-storage.qmd
-          - text: "Leading Workshops"
-            href: access-admin/leading-workshops.qmd
-    
-
 format:
   html:
     include-in-header: _ga-consent-defaults.html
