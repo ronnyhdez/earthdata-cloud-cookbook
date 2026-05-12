@@ -67,6 +67,8 @@ website:
       # ============================================================
       - section: "Core concepts"
         contents:
+          - text: "Cloud Paradigm"
+            href: cloud_paradigm.qmd
           - text: "When To Cloud"
             href: when-to-cloud.qmd
 
