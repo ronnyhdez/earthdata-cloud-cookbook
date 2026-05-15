@@ -263,6 +263,8 @@ website:
 
 format:
   html:
+    grid:
+      sidebar-width: 500px
     include-in-header: _ga-consent-defaults.html
     theme:
       light: cosmo
@@ -271,6 +273,8 @@ format:
     code-copy: true
     css: styles.css
     toc: true
+    link-external-icon: true
+    link-external-newwindow: true
 
 filters:
   - include-files.lua
