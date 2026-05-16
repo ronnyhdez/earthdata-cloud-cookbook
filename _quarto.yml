@@ -54,13 +54,6 @@ website:
             href: https://ornldaac.github.io/airborne/
           - text: "ORNL DAAC GEDI Tutorials"
             href: https://ornldaac.github.io/gedi_tutorials/
-          - section: "Workshops & Hackathons"
-            href: workshops/index.qmd
-            contents:
-              - text: "Workshop Setup"
-                href: workshops/setup.md
-          - text: "Cloud Environment Setup"
-            href: environment-setup/index.qmd
 
       # ============================================================
       # SECTION 2: CORE CONCEPTS (conceptual, the "why")
@@ -248,6 +241,13 @@ website:
                 href: contributing/community.md
               - text: "Environment"
                 href: contributing/environment.qmd
+          - section: "Workshops & Hackathons"
+            href: workshops/index.qmd
+            contents:
+              - text: "Workshop Setup"
+                href: workshops/setup.md
+          - text: "Cloud Environment Setup"
+            href: environment-setup/index.qmd
           - section: "Alternate Access Methods"
             contents:
               - text: "Access COG"
