@@ -42,17 +42,17 @@ website:
       - section: "Our Cookbooks"
         href: our-cookbooks.qmd
         contents:
-          - text: "PO.DAAC Tutorials"
+          - text: "PO.DAAC Tutorials ↗"
             href: https://podaac.github.io/tutorials/
-          - text: "ASDC Mission Tutorials"
+          - text: "ASDC Mission Tutorials ↗"
             href: https://nasa.github.io/ASDC_Data_and_User_Services/
-          - text: "NSIDC Data Cookbook"
+          - text: "NSIDC Data Cookbook ↗"
             href: https://nsidc.github.io/NSIDC-Data-Cookbook/
-          - text: "OBDAAC Ocean Data Cookbook"
+          - text: "OBDAAC Ocean Data Cookbook ↗"
             href: https://nasa.github.io/oceandata-notebooks/
-          - text: "ORNL DAAC Airborne Tutorials"
+          - text: "ORNL DAAC Airborne Tutorials ↗"
             href: https://ornldaac.github.io/airborne/
-          - text: "ORNL DAAC GEDI Tutorials"
+          - text: "ORNL DAAC GEDI Tutorials ↗"
             href: https://ornldaac.github.io/gedi_tutorials/
 
       # ============================================================
