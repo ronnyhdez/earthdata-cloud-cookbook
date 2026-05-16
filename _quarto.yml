@@ -65,7 +65,7 @@ website:
       # ============================================================
       # SECTION 2: CORE CONCEPTS (conceptual, the "why")
       # ============================================================
-      - section: "Core concepts"
+      - section: "Core Concepts"
         contents:
           - text: "Cloud Paradigm"
             href: cloud_paradigm.qmd
