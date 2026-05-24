@@ -239,7 +239,7 @@ website:
                 href: contributing/troubleshooting.md
               - text: "Community Guidelines"
                 href: contributing/community.md
-              - text: "Environment"
+              - text: "Computing Environment"
                 href: contributing/environment.qmd
           - section: "Workshops & Hackathons"
             href: workshops/index.qmd
