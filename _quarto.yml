@@ -42,17 +42,17 @@ website:
       - section: "Our Cookbooks"
         href: our-cookbooks.qmd
         contents:
-          - text: "PO.DAAC Tutorials ↗"
+          - text: "PO.DAAC Tutorials"
             href: https://podaac.github.io/tutorials/
-          - text: "ASDC Mission Tutorials ↗"
+          - text: "ASDC Mission Tutorials"
             href: https://nasa.github.io/ASDC_Data_and_User_Services/
-          - text: "NSIDC Data Cookbook ↗"
+          - text: "NSIDC Data Cookbook"
             href: https://nsidc.github.io/NSIDC-Data-Cookbook/
-          - text: "OBDAAC Ocean Data Cookbook ↗"
+          - text: "OBDAAC Ocean Data Cookbook"
             href: https://nasa.github.io/oceandata-notebooks/
-          - text: "ORNL DAAC Airborne Tutorials ↗"
+          - text: "ORNL DAAC Airborne Tutorials"
             href: https://ornldaac.github.io/airborne/
-          - text: "ORNL DAAC GEDI Tutorials ↗"
+          - text: "ORNL DAAC GEDI Tutorials"
             href: https://ornldaac.github.io/gedi_tutorials/
 
       # ============================================================
@@ -118,6 +118,8 @@ website:
      # - section: "Examples by Data Provider"
      #   href: examples/index.qmd
      #   contents:
+          - text: "Direct Access & Harmony Workflow"
+            href: examples/Transform-workflow.ipynb
           - section: "GES DISC"
             contents:
               - text: "MERRA2 with Kerchunk"
@@ -148,8 +150,6 @@ website:
             contents:
               - text: "Landsat C2 Search & Access"
                 href: examples/USGS_Landsat/Landsat_C2_Search_Access.ipynb
-          - text: "Direct Access & Harmony Workflow"
-            href: examples/Transform-workflow.ipynb
 
       # ============================================================
       # SECTION 4: HOW-TO GUIDES (goal-oriented, assumes contex)
