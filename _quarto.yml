@@ -248,16 +248,6 @@ website:
                 href: workshops/setup.md
           - text: "Cloud Environment Setup"
             href: environment-setup/index.qmd
-          - section: "Alternate Access Methods"
-            contents:
-              - text: "Access COG"
-                href: appendix/appendix-alternate-in-cloud-access/Access_COG.qmd
-              - text: "Single File HTTPS COG"
-                href: appendix/appendix-alternate-in-cloud-access/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example.qmd
-              - text: "Single File Direct S3 NetCDF"
-                href: appendix/appendix-alternate-in-cloud-access/Earthdata_Cloud__Single_File__Direct_S3_Access_NetCDF4_Example.ipynb
-              - text: "Multi-File Direct S3 NetCDF"
-                href: appendix/appendix-alternate-in-cloud-access/Multi-File_Direct_S3_Access_NetCDF_Example.ipynb
           - text: "Privacy Policy"
             href: privacy.qmd
 
