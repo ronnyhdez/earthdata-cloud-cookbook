@@ -190,14 +190,6 @@ website:
                 href: how-tos/subset.qmd
               - text: "Store Data in S3"
                 href: how-tos/using-s3-storage.ipynb
-              # - text: "Reformat Data Files"
-              #   href: how-tos/reformat.qmd
-              # - text: "Reproject and Regrid"
-              #   href: how-tos/reproject_regrid.qmd
-              # - text: "Aggregate Data"
-              #   href: how-tos/aggregate.qmd
-              # - text: "Plot Data"
-              #   href: how-tos/plot.qmd
           - section: "Use APIs"
             href: how-tos/use_apis.qmd
             contents:
