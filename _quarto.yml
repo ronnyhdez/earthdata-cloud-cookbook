@@ -48,7 +48,7 @@ website:
             href: https://nasa.github.io/ASDC_Data_and_User_Services/
           - text: "NSIDC Data Cookbook"
             href: https://nsidc.github.io/NSIDC-Data-Cookbook/
-          - text: "OBDAAC Ocean Data Cookbook"
+          - text: "OB.DAAC Help Hub"
             href: https://nasa.github.io/oceandata-notebooks/
           - text: "ORNL DAAC Airborne Tutorials"
             href: https://ornldaac.github.io/airborne/
