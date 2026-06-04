@@ -54,6 +54,8 @@ website:
             href: https://ornldaac.github.io/airborne/
           - text: "ORNL DAAC GEDI Tutorials"
             href: https://ornldaac.github.io/gedi_tutorials/
+          - text: "NISAR Data Users Guide"
+            href: https://nisar-docs.asf.alaska.edu/
 
       # ============================================================
       # SECTION 2: CORE CONCEPTS (conceptual, the "why")
