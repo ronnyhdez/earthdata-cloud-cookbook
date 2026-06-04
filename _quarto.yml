@@ -44,7 +44,7 @@ website:
         contents:
           - text: "PO.DAAC Tutorials"
             href: https://podaac.github.io/tutorials/
-          - text: "ASDC Mission Tutorials"
+          - text: "ASDC Data and User Services"
             href: https://nasa.github.io/ASDC_Data_and_User_Services/
           - text: "NSIDC Data Cookbook"
             href: https://nsidc.github.io/NSIDC-Data-Cookbook/
