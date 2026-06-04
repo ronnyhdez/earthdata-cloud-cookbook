@@ -37,7 +37,7 @@ website:
       - text: "Welcome"
         href: index.qmd
       # ============================================================
-      # SECTION 1: OUR COOKBOOKS (Explanation)
+      # SECTION 1: OUR COOKBOOKS
       # ============================================================
       - section: "Our Cookbooks"
         href: our-cookbooks.qmd
