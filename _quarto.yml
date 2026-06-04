@@ -54,7 +54,7 @@ website:
             href: https://ornldaac.github.io/airborne/
           - text: "ORNL DAAC GEDI Tutorials"
             href: https://ornldaac.github.io/gedi_tutorials/
-          - text: "NISAR Data Users Guide"
+          - text: "NISAR Data User Guide"
             href: https://nisar-docs.asf.alaska.edu/
 
       # ============================================================
