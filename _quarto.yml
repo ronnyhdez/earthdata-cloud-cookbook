@@ -205,8 +205,6 @@ website:
                 href: external/appeears_csv_cloud_access.ipynb
           - text: "Open Science Tutorial"
             href: how-tos/Earthdata_Cloud__Open-Science-Tutorial.ipynb
-          - text: "Parking Lot"
-            href: how-tos/how_to_guide_parking_lot.qmd
 
       # ============================================================
       # SECTION 5: REFERENCE
