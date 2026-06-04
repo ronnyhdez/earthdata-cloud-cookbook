@@ -154,7 +154,7 @@ website:
                 href: examples/USGS_Landsat/Landsat_C2_Search_Access.ipynb
 
       # ============================================================
-      # SECTION 4: HOW-TO GUIDES (goal-oriented, assumes contex)
+      # SECTION 4: HOW-TO GUIDES (goal-oriented, assumes context)
       # ============================================================
       - section: "How-To Guides (goal-oriented, assumes context)"
         contents:
