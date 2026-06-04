@@ -7,7 +7,7 @@ execute:
 
 website:
   page-navigation: true
-  title: "EarthData Cloud Cookbook"
+  title: "Earthdata Cloud Cookbook"
   site-url: https://nasa-openscapes.github.io/earthdata-cloud-cookbook
   repo-url: https://github.com/nasa-openscapes/earthdata-cloud-cookbook
   repo-actions: [edit, source, issue]
@@ -36,80 +36,46 @@ website:
     contents:
       - text: "Welcome"
         href: index.qmd
-      - text: "When To Cloud"
-        href: when-to-cloud.qmd
+      # ============================================================
+      # SECTION 1: OUR COOKBOOKS
+      # ============================================================
       - section: "Our Cookbooks"
         href: our-cookbooks.qmd
         contents:
-          - text: "Ocean, climate, and surface water data tutorials from PO.DAAC"
+          - text: "PO.DAAC Tutorials"
             href: https://podaac.github.io/tutorials/
-          - text: "Mission-specific tutorials for ASDC"
-            href: https://nasa.github.io/ASDC_Data_and_User_Services/  
-          - text: "Tutorials from the National Snow and Ice Data Center (NSIDC)"
-            href: https://nsidc.github.io/NSIDC-Data-Cookbook/  
-          - text: "Ocean Data Cookbook from OBDAAC"
+          - text: "ASDC Data and User Services"
+            href: https://nasa.github.io/ASDC_Data_and_User_Services/
+          - text: "NSIDC Data Cookbook"
+            href: https://nsidc.github.io/NSIDC-Data-Cookbook/
+          - text: "OB.DAAC Help Hub"
             href: https://nasa.github.io/oceandata-notebooks/
-          - text: "Airborne Data Tutorials from ORNL DAAC"
-            href: https://ornldaac.github.io/airborne/  
-          - text: "GEDI Data Tutorials from ORNL DAAC"
-            href: https://ornldaac.github.io/gedi_tutorials/  
-      - text: "Glossary & Cheatsheets" 
-        href: glossary.qmd      
-      - text: "Cloud Environment Setup"
-        href: environment-setup/index.qmd
-      - section: "How do I..."
-        contents: 
-          - section: "find data"
-            contents:
-              - text: "with Earthdata Search"
-                href: how-tos/find-data/earthdata_search.md
-              - text: "with Python" 
-                href: how-tos/find-data/find-python.ipynb
-              - text: "with R" 
-                href: how-tos/find-data/find-r.qmd
-              - text: "with R and STAC" 
-                href: how-tos/find-data/CMR-STAC-Search.qmd
-          - section: "access data in cloud"
-            contents: 
-              - text: "with Python"
-                href: how-tos/access-data/access-cloud-python.ipynb
- #             - text: "with R"
- #               href: how-tos/access-data/access-cloud-r.qmd 
-          - section: "access data locally"  
-            contents:
-              - text: "with Python"
-                href: how-tos/access-data/access-local-python.ipynb
-              - text: "with OPeNDAP"
-                href: how-tos/access-data/access-local-opendap.qmd
-              - text: "with command line"  
-                href: how-tos/access-data/access-command-line.md
-          - text: "read data"    
-            href: how-tos/read_data.qmd
-          - text: "subset data"
-            href: how-tos/subset.qmd
-          - text: "Store data in the cloud"
-            href: how-tos/using-s3-storage.ipynb
-          #- text: "reformat data files"
-          #  href: how-tos/reformat.qmd
-          #- text: "reproject and regrid"
-          #  href: how-tos/reproject_regrid.qmd
-          #- text: "aggregate data"
-          #  href: how-tos/aggregate.qmd
-          #- text: "plot data"
-          #  href: how-tos/plot.qmd
-          - section: "use APIs"
-            href: how-tos/use_apis.qmd
-            contents:
-              - text: "AppEEARS Cloud CSV Access "
-                href: external/appeears_csv_cloud_access.ipynb
-          - text: "parking lot"
-            href: how-tos/how_to_guide_parking_lot.qmd
-      - section: "Tutorials"
+          - text: "ORNL DAAC Airborne Tutorials"
+            href: https://ornldaac.github.io/airborne/
+          - text: "ORNL DAAC GEDI Tutorials"
+            href: https://ornldaac.github.io/gedi_tutorials/
+          - text: "NISAR Data Users Guide"
+            href: https://nisar-docs.asf.alaska.edu/
+
+      # ============================================================
+      # SECTION 2: CORE CONCEPTS (conceptual, the "why")
+      # ============================================================
+      - section: "Core Concepts"
+        contents:
+          - text: "Cloud Paradigm"
+            href: cloud_paradigm.qmd
+          - text: "When To Cloud"
+            href: when-to-cloud.qmd
+
+      # ============================================================
+      # SECTION 3: TUTORIALS (Learn by doing, end-to-end)
+      # ============================================================
+      - section: "Tutorials (Learn by Doing)"
         href: tutorials/index.qmd
         contents:
           - text: "Earthdata Cloud Clinic"
             href: tutorials/Earthdata-cloud-clinic.ipynb
-          - text: "Multi-datasets"
+          - text: "Multi-datasets (Hurricanes)"
             href: tutorials/Hurricanes_Wind_and_Sea_Surface_Temperature.ipynb
           - text: "Sea Level Rise"
             href: tutorials/Sea_Level_Rise.ipynb
@@ -119,86 +85,178 @@ website:
             href: tutorials/Observing_Seasonal_Ag_Changes.ipynb
           - text: "Subsetting Data with Harmony"
             href: tutorials/Harmony.ipynb
-          - text: "OPeNDAP Access" 
+          - text: "OPeNDAP Access"
             href: tutorials/Earthdata_Cloud__Data_Access_OPeNDAP_Example.ipynb
           - text: "Pygeoweaver Workflow Demo"
             href: tutorials/fair-workflow-geoweaver-demo.ipynb
           - text: "MATLAB Access NetCDF"
             href: tutorials/matlab.qmd
-      - section: "Workshops & Hackathons"
-        href: workshops/index.qmd
-        contents:
-          - text: "Workshop Setup"
-            href: workshops/setup.md
-      - section: "Access & Administration" 
-        href: access-admin/index.qmd
-        contents: 
-          - text: "2i2c Hub access"
-            href: access-admin/add-folks-to-2i2c-github-teams.qmd
-          - text: "Data storage"
-            href: access-admin/data-storage.qmd
-          - text: "Leading workshops"
-            href: access-admin/leading-workshops.qmd
-      - section: "In Development"
-        href: in-development/index.qmd
-        contents:
-          - text: "Search & Download NSIDC Cloud"
-            href: examples/NSIDC/ICESat2-CMR-OnPrem-vs-Cloud.ipynb
-          - text: "Access NSIDC Cloud w/ CMR"
-            href: examples/NSIDC/ICESat2-CMR-AWS-S3.ipynb
+          - text: "ICESat-2 Visualization"
+            href: tutorials/make_atl03_figure.ipynb
+          - text: "Data Stories Template"
+            href: tutorials/Data_stories_template.ipynb
+     # - section: "External Tutorials"
+     #   contents:
+          - text: "NASA Earthdata Authentication"
+            href: external/nasa_earthdata_authentication.ipynb
+          - text: "CMR Data Discovery"
+            href: external/data_discovery_cmr.ipynb
+          - text: "CMR-STAC API Discovery"
+            href: external/data_discovery_cmr-stac_api.ipynb
+          - text: "Harmony Subsetting"
+            href: external/harmony_subsetting.ipynb
+          - text: "Direct S3 Access Patterns"
+            href: external/data_access_direct_S3.ipynb
+          - text: "On-Prem vs Cloud Workflows"
+            href: external/on-prem_cloud.ipynb
+          - text: "Zarr-EOSDIS-Store"
+            href: external/zarr-eosdis-store.ipynb
+          - text: "COF Zarr Reformat"
+            href: external/cof-zarr-reformat.ipynb
+          - text: "Xarray Fundamentals"
+            href: external/xarray.ipynb
+          - text: "Sentinel-6 OPeNDAP & Gridding"
+            href: external/sentinel-6_opendap_access_gridding.ipynb
+     # - section: "Examples by Data Provider"
+     #   href: examples/index.qmd
+     #   contents:
           - text: "Direct Access & Harmony Workflow"
             href: examples/Transform-workflow.ipynb
-          - text: "Search & Access USGS Landsat Cloud" 
-            href: examples/USGS_Landsat/Landsat_C2_Search_Access.ipynb
-          - text: "Direct S3 Data Access: NetCDF - Daymet v4 Daily TMAX Example"
-            href: examples/ORNL/Data_Access__Direct_S3_Access__ORNL_DAYMET.ipynb
-          - text: "Access ECCO data via Harmony & the Zarr reformatter service"
-            href: external/cof-zarr-reformat.ipynb
-          - text: "zarr-eosdis-store example"
-            href: external/zarr-eosdis-store.ipynb
-          - section: "Example Workflows"
-            href: examples/index.qmd
-            contents: 
-              - text: "GES DISC - MERRA2"
-                href: examples/GESDISC/GESDISC_MERRA2_tavg1_2d_flx_Nx__Kerchunk.ipynb
-              - text: "LP DAAC ECOSTRESS"
-                href: examples/LPDAAC/LPDAAC_ECOSTRESS_LSTE__Kerchunk.ipynb
-              - text: "PO.DAAC ECCO SSH"
-                href: examples/PODAAC/PODAAC_ECCO_SSH__Kerchunk.ipynb
-          - text: "`earthdata`: Python-R Handoff"
-            href: in-development/earthdata-python-r-handoff.qmd  
-      - section: "Contributing"
-        href: contributing/index.qmd
-        contents:
-          - text: "Calendaring and Project Management"
-            href: contributing/calendar-project-management.qmd
-          - text: "Onboarding Mentors"
-            href: contributing/onboarding.qmd        
-          - text: "Setup"
-            href: contributing/setup.qmd
-          - text: "Workflows"
-            href: contributing/workflow.qmd
-          - text: "Quarto Tutorial"
-            href: contributing/quarto-website-tutorial.md
-          - text: "Troubleshooting"
-            href: contributing/troubleshooting.md
-          - section: "Templates"
+          - section: "GES DISC"
             contents:
-              - text: "Python Jupyter Notebook Template"
-                href: contributing/templates/notebook-template-python-jupyter.ipynb
-              - text: "Python Quarto Template"
-                href: contributing/templates/notebook-template-python-quarto.qmd
-              - text: "R Quarto Template"
-                href: contributing/templates/notebook-template-r-quarto.qmd
-      - section: "Appendix"
+              - text: "MERRA2 with Kerchunk"
+                href: examples/GESDISC/GESDISC_MERRA2_tavg1_2d_flx_Nx__Kerchunk.ipynb
+          - section: "LP DAAC"
+            contents:
+              - text: "HLS Point Buffer Search & Access"
+                href: examples/LPDAAC/Find_and_Access_HLS_PointBuffer.ipynb
+              - text: "ECOSTRESS with Kerchunk"
+                href: examples/LPDAAC/LPDAAC_ECOSTRESS_LSTE__Kerchunk.ipynb
+          - section: "NSIDC"
+            contents:
+              - text: "ICESat-2 OnPrem vs Cloud"
+                href: examples/NSIDC/ICESat2-CMR-OnPrem-vs-Cloud.ipynb
+              - text: "ICESat-2 CMR & AWS S3"
+                href: examples/NSIDC/ICESat2-CMR-AWS-S3.ipynb
+          - section: "ORNL DAAC"
+            contents:
+              - text: "DAYMET Direct S3 Access"
+                href: examples/ORNL/Data_Access__Direct_S3_Access__ORNL_DAYMET.ipynb
+              - text: "DAYMET with Kerchunk"
+                href: examples/ORNL/ORNL_DAYMET__Kerchunk.ipynb
+          - section: "PO.DAAC"
+            contents:
+              - text: "ECCO SSH with Kerchunk"
+                href: examples/PODAAC/PODAAC_ECCO_SSH__Kerchunk.ipynb
+          - section: "USGS"
+            contents:
+              - text: "Landsat C2 Search & Access"
+                href: examples/USGS_Landsat/Landsat_C2_Search_Access.ipynb
+
+      # ============================================================
+      # SECTION 4: HOW-TO GUIDES (goal-oriented, assumes context)
+      # ============================================================
+      - section: "How-To Guides (Do a Task)"
+        contents:
+          - section: "Find Data"
+            contents:
+              - text: "with Earthdata Search"
+                href: how-tos/find-data/earthdata_search.md
+              - text: "with Python"
+                href: how-tos/find-data/find-python.ipynb
+              - text: "with R"
+                href: how-tos/find-data/find-r.qmd
+              - text: "with R and STAC"
+                href: how-tos/find-data/CMR-STAC-Search.qmd
+              - text: "Programmatic Discovery"
+                href: how-tos/find-data/programmatic.qmd
+          - section: "Access Data in Cloud"
+            contents:
+              - text: "with Python"
+                href: how-tos/access-data/access-cloud-python.ipynb
+          - section: "Access Data Locally"
+            contents:
+              - text: "with Python"
+                href: how-tos/access-data/access-local-python.ipynb
+              - text: "with OPeNDAP"
+                href: how-tos/access-data/access-local-opendap.qmd
+              - text: "with Command Line"
+                href: how-tos/access-data/access-command-line.md
+          - section: "Work with Data"
+            contents:
+              - text: "Read Data"
+                href: how-tos/read_data.qmd
+              - text: "Subset Data"
+                href: how-tos/subset.qmd
+              - text: "Store Data in S3"
+                href: how-tos/using-s3-storage.ipynb
+              # - text: "Reformat Data Files"
+              #   href: how-tos/reformat.qmd
+              # - text: "Reproject and Regrid"
+              #   href: how-tos/reproject_regrid.qmd
+              # - text: "Aggregate Data"
+              #   href: how-tos/aggregate.qmd
+              # - text: "Plot Data"
+              #   href: how-tos/plot.qmd
+          - section: "Use APIs"
+            href: how-tos/use_apis.qmd
+            contents:
+              - text: "AppEEARS Cloud CSV Access"
+                href: external/appeears_csv_cloud_access.ipynb
+          - text: "Open Science Tutorial"
+            href: how-tos/Earthdata_Cloud__Open-Science-Tutorial.ipynb
+          - text: "Parking Lot"
+            href: how-tos/how_to_guide_parking_lot.qmd
+
+      # ============================================================
+      # SECTION 5: REFERENCE
+      # ============================================================
+      - section: "Reference"
         href: appendix/index.md
         contents:
+          - text: "Glossary & Cheatsheets"
+            href: glossary.qmd
           - text: "Authentication"
             href: appendix/authentication.qmd
-    
+
+      # ============================================================
+      # SECTION 7: COMMUNITY & RESOURCES
+      # ============================================================
+      - section: "Community & Resources"
+        contents:
+          - section: "Contributing"
+            href: contributing/index.qmd
+            contents:
+              - text: "Calendaring and Project Management"
+                href: contributing/calendar-project-management.qmd
+              - text: "Onboarding Mentors"
+                href: contributing/onboarding.qmd
+              - text: "Setup"
+                href: contributing/setup.qmd
+              - text: "Workflows"
+                href: contributing/workflow.qmd
+              - text: "Quarto Tutorial"
+                href: contributing/quarto-website-tutorial.md
+              - text: "Troubleshooting"
+                href: contributing/troubleshooting.md
+              - text: "Community Guidelines"
+                href: contributing/community.md
+              - text: "Computing Environment"
+                href: contributing/environment.qmd
+          - section: "Workshops & Hackathons"
+            href: workshops/index.qmd
+            contents:
+              - text: "Workshop Setup"
+                href: workshops/setup.md
+          - text: "Cloud Environment Setup"
+            href: environment-setup/index.qmd
+          - text: "Privacy Policy"
+            href: privacy.qmd
 
 format:
   html:
+    grid:
+      sidebar-width: 500px
     include-in-header: _ga-consent-defaults.html
     theme:
       light: cosmo
@@ -207,6 +265,8 @@ format:
     code-copy: true
     css: styles.css
     toc: true
+    link-external-icon: true
+    link-external-newwindow: true
 
 filters:
   - include-files.lua
