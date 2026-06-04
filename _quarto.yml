@@ -156,7 +156,7 @@ website:
       # ============================================================
       # SECTION 4: HOW-TO GUIDES (goal-oriented, assumes context)
       # ============================================================
-      - section: "How-To Guides (goal-oriented, assumes context)"
+      - section: "How-To Guides (Do a Task)"
         contents:
           - section: "Find Data"
             contents:
