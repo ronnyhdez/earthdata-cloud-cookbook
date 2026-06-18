@@ -125,7 +125,7 @@ website:
           - section: "GES DISC"
             contents:
               - text: "MERRA2 with Kerchunk"
-                href: examples/GESDISC/GESDISC_MERRA2_tavg1_2d_flx_Nx__Kerchunk.ipynb
+                href: GESDISC_MERRA2_tavg1_2d_flx_Nx__Kerchunk.ipynb
           - section: "LP DAAC"
             contents:
               - text: "HLS Point Buffer Search & Access"
