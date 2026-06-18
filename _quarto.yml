@@ -122,16 +122,12 @@ website:
      #   contents:
           - text: "Direct Access & Harmony Workflow"
             href: examples/Transform-workflow.ipynb
-          - section: "GES DISC"
-            contents:
-              - text: "MERRA2 with Kerchunk"
-                href: GESDISC_MERRA2_tavg1_2d_flx_Nx__Kerchunk.ipynb
-          - section: "LP DAAC"
-            contents:
-              - text: "HLS Point Buffer Search & Access"
-                href: examples/LPDAAC/Find_and_Access_HLS_PointBuffer.ipynb
-              - text: "ECOSTRESS with Kerchunk"
-                href: examples/LPDAAC/LPDAAC_ECOSTRESS_LSTE__Kerchunk.ipynb
+          - text: "MERRA2 with Kerchunk"
+            href: tutorials/GESDISC_MERRA2_tavg1_2d_flx_Nx__Kerchunk.ipynb
+          - text: "HLS Point Buffer Search & Access"
+            href: tutorials/Find_and_Access_HLS_PointBuffer.ipynb
+          - text: "ECOSTRESS with Kerchunk"
+            href: tutorials/LPDAAC_ECOSTRESS_LSTE__Kerchunk.ipynb
           - section: "NSIDC"
             contents:
               - text: "ICESat-2 OnPrem vs Cloud"
