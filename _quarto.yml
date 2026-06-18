@@ -138,7 +138,7 @@ website:
           - text: "ECCO SSH with Kerchunk"
             href: tutorials/PODAAC_ECCO_SSH__Kerchunk.ipynb
           - text: "Landsat C2 Search & Access"
-            href: tutorials/USGS_Landsat/Landsat_C2_Search_Access.ipynb
+            href: tutorials/Landsat_C2_Search_Access.ipynb
 
       # ============================================================
       # SECTION 4: HOW-TO GUIDES (goal-oriented, assumes context)
