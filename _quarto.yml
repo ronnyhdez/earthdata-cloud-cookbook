@@ -117,9 +117,6 @@ website:
             href: external/xarray.ipynb
           - text: "Sentinel-6 OPeNDAP & Gridding"
             href: external/sentinel-6_opendap_access_gridding.ipynb
-     # - section: "Examples by Data Provider"
-     #   href: examples/index.qmd
-     #   contents:
           - text: "Direct Access & Harmony Workflow"
             href: tutorials/Transform-workflow.ipynb
           - text: "MERRA2 with Kerchunk"
