@@ -134,12 +134,10 @@ website:
                 href: examples/NSIDC/ICESat2-CMR-OnPrem-vs-Cloud.ipynb
               - text: "ICESat-2 CMR & AWS S3"
                 href: examples/NSIDC/ICESat2-CMR-AWS-S3.ipynb
-          - section: "ORNL DAAC"
-            contents:
               - text: "DAYMET Direct S3 Access"
-                href: examples/ORNL/Data_Access__Direct_S3_Access__ORNL_DAYMET.ipynb
-              - text: "DAYMET with Kerchunk"
-                href: examples/ORNL/ORNL_DAYMET__Kerchunk.ipynb
+            href: tutorials/ORNL/Data_Access__Direct_S3_Access__ORNL_DAYMET.ipynb
+          - text: "DAYMET with Kerchunk"
+            href: tutorials/ORNL/ORNL_DAYMET__Kerchunk.ipynb
           - section: "PO.DAAC"
             contents:
               - text: "ECCO SSH with Kerchunk"
