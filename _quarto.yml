@@ -121,7 +121,7 @@ website:
      #   href: examples/index.qmd
      #   contents:
           - text: "Direct Access & Harmony Workflow"
-            href: examples/Transform-workflow.ipynb
+            href: tutorials/Transform-workflow.ipynb
           - text: "MERRA2 with Kerchunk"
             href: tutorials/GESDISC_MERRA2_tavg1_2d_flx_Nx__Kerchunk.ipynb
           - text: "HLS Point Buffer Search & Access"
