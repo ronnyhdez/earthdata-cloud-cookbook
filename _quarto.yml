@@ -117,41 +117,28 @@ website:
             href: external/xarray.ipynb
           - text: "Sentinel-6 OPeNDAP & Gridding"
             href: external/sentinel-6_opendap_access_gridding.ipynb
-     # - section: "Examples by Data Provider"
-     #   href: examples/index.qmd
-     #   contents:
           - text: "Direct Access & Harmony Workflow"
-            href: examples/Transform-workflow.ipynb
-          - section: "GES DISC"
-            contents:
-              - text: "MERRA2 with Kerchunk"
-                href: examples/GESDISC/GESDISC_MERRA2_tavg1_2d_flx_Nx__Kerchunk.ipynb
-          - section: "LP DAAC"
-            contents:
-              - text: "HLS Point Buffer Search & Access"
-                href: examples/LPDAAC/Find_and_Access_HLS_PointBuffer.ipynb
-              - text: "ECOSTRESS with Kerchunk"
-                href: examples/LPDAAC/LPDAAC_ECOSTRESS_LSTE__Kerchunk.ipynb
+            href: tutorials/Transform-workflow.ipynb
+          - text: "MERRA2 with Kerchunk"
+            href: tutorials/GESDISC_MERRA2_tavg1_2d_flx_Nx__Kerchunk.ipynb
+          - text: "HLS Point Buffer Search & Access"
+            href: tutorials/Find_and_Access_HLS_PointBuffer.ipynb
+          - text: "ECOSTRESS with Kerchunk"
+            href: tutorials/LPDAAC_ECOSTRESS_LSTE__Kerchunk.ipynb
           - section: "NSIDC"
             contents:
               - text: "ICESat-2 OnPrem vs Cloud"
                 href: examples/NSIDC/ICESat2-CMR-OnPrem-vs-Cloud.ipynb
               - text: "ICESat-2 CMR & AWS S3"
                 href: examples/NSIDC/ICESat2-CMR-AWS-S3.ipynb
-          - section: "ORNL DAAC"
-            contents:
               - text: "DAYMET Direct S3 Access"
-                href: examples/ORNL/Data_Access__Direct_S3_Access__ORNL_DAYMET.ipynb
-              - text: "DAYMET with Kerchunk"
-                href: examples/ORNL/ORNL_DAYMET__Kerchunk.ipynb
-          - section: "PO.DAAC"
-            contents:
-              - text: "ECCO SSH with Kerchunk"
-                href: examples/PODAAC/PODAAC_ECCO_SSH__Kerchunk.ipynb
-          - section: "USGS"
-            contents:
-              - text: "Landsat C2 Search & Access"
-                href: examples/USGS_Landsat/Landsat_C2_Search_Access.ipynb
+            href: tutorials/Data_Access__Direct_S3_Access__ORNL_DAYMET.ipynb
+          - text: "DAYMET with Kerchunk"
+            href: tutorials/ORNL_DAYMET__Kerchunk.ipynb
+          - text: "ECCO SSH with Kerchunk"
+            href: tutorials/PODAAC_ECCO_SSH__Kerchunk.ipynb
+          - text: "Landsat C2 Search & Access"
+            href: tutorials/Landsat_C2_Search_Access.ipynb
 
       # ============================================================
       # SECTION 4: HOW-TO GUIDES (goal-oriented, assumes context)
