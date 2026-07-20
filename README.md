@@ -1,7 +1,6 @@
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.7786710.svg)](https://zenodo.org/record/7786710)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NASA-Openscapes/earthdata-cloud-cookbook?quickstart=1&editor=jupyter)
 
-# NASA Earthdata Cloud Cookbook
+# NASA Earthdata Cloud Cookbook <a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/"><img src="./images/earthdata-cookbook-hex-v7-no-url.png" align="right" height="138" /></a>
 
 **Supporting NASA Earth Science Research Teams' Migration to the Cloud**
 
