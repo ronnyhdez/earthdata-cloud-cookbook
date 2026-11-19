@@ -160,7 +160,7 @@ To understand how data are described in NASA’s Common Metadata Repository
 - A **collection** describes a dataset as a whole — for example, "BioSCape:
 AVIRIS-NG L3 Resampled Reflectance Mosaics, V2." It tells you what the dataset
 is, who produced it, what instruments and platforms were involved, and the
-overall spatial/temporal coverage.
+overall spatial/temporal coverages.
 
 - A **granule** is an individual data unit within a collection and may contain
 one or several files. In this BioSCape collection, a granule represents a
