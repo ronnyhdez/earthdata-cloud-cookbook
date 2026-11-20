@@ -1,6 +1,9 @@
 ---
 title: Understanding and Using Suborbital Metadata
 authors:
+name: "Amy FitzGerrell"
+orcid: 0000-0001-7834-5461
+email: amy.fitzgerrell@colorado.edu
     - name: "Rupesh Shrestha"
       orcid: 0000-0002-3140-6623
       email: shresthar@ornl.gov
